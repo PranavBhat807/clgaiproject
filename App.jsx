@@ -72,9 +72,10 @@ function App() {
         </nav>
 
         <div className='text-fonts'>
-          <h1 className='Mobile'>Intelligent</h1>
-          <h1 className='News'>News</h1>
-
+          <div className="intelligent-news">
+            <h1 className='Mobile'>Intelligent</h1>
+            <h1 className='News'>News</h1>
+          </div>
           <h2>Access the power of Artificial Intelligence in News</h2>
           <img className='news-img-mobile' src={download} alt="images" />
 
